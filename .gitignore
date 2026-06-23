@@ -1,0 +1,53 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Model checkpoints (large binary files) ────────────────────────────────────
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# ── Generated / intermediate data ─────────────────────────────────────────────
+stock_data/processed_tweets/
+stock_data/pca_latent_indicators/
+stock_data/pca_historical_csv/
+stock_data/raw_pca_historical_csv/
+stock_data/new_sentiment_embeddings/
+stock_data/pca_branch1_tensors/
+pp/indicators/
+pca_new_merged_tensors/
+
+# ── Source price + tweet data (large, from StockNet) ──────────────────────────
+stock_data/price/
+stock_data/stocknet-dataset-master/
+
+# ── Results (plots + saved models) ────────────────────────────────────────────
+Results/
+pipeline/Results/
+
+# ── OS / editor ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/

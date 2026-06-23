@@ -1,0 +1,27 @@
+.git
+.github
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+.env
+.env.*
+!.env.example
+frontend/node_modules
+frontend/.next
+node_modules
+mlruns
+wandb
+Results
+*.pth
+# Large dataset / artifact dirs are mounted as volumes (see docker-compose.yml)
+# instead of baked into the image, to keep it lean:
+stock_data
+pp
+branches
+test_tensors
+test_merged_tensors
+*.md
+.claude
