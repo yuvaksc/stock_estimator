@@ -43,6 +43,9 @@ stock_data/stocknet-dataset-master/
 Results/
 pipeline/Results/
 
+# ── Claude Code ───────────────────────────────────────────────────────────────
+.claude/
+
 # ── OS / editor ────────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
