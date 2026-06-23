@@ -35,9 +35,9 @@ stock_data/pca_branch1_tensors/
 pp/indicators/
 pca_new_merged_tensors/
 
-# ── Source price + tweet data (large, from StockNet) ──────────────────────────
-stock_data/price/
-stock_data/stocknet-dataset-master/
+# ── Source price + tweet data kept intentionally (StockNet raw inputs) ────────
+# stock_data/price/                 # included
+# stock_data/stocknet-dataset-master/  # included
 
 # ── Results (plots + saved models) ────────────────────────────────────────────
 Results/
